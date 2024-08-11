@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.container {
+    overflow: hidden;
+    margin-top: 20vh;
+    margin-left: 50%;
+    justify-content: space-around;
+    align-items: center;
+    
+
+
+}
+
+.img-container img {
+    display: flex;
+    filter: saturate(0%);
+    width: 10%;
+    border:2px solid whitesmoke;
+    height: 10px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: all ease 1s;
+    cursor: pointer;
+    margin: 5vh;
+
+}
+
+.img-container:hover img {
+    width: 150px;
+    height: auto;
+    filter: saturate(100%);
+}
+    </style>
+</head>
+<body style="background-color: black;">
+    <div class="container">
+        <div class="img-container">
+            <img src="E:\vs\Hover\1.jpg" alt="BS"></div>
+        <div class="img-container">
+            <img src="E:\vs\Hover\me1.jpeg" alt="BS"></div>
+        <div class="img-container">
+            <img src="E:\vs\Hover\WhatsApp Image 2023-01-11 at 10.18.17 AM.jpeg" alt="BS"></div>
+        <div class="img-container">
+            <img src="E:\vs\Hover\WhatsApp Image 2023-06-15 at 7.56.15 AM.jpeg" alt="BS"></div>
+
+    </div>
+    
+</body>
+</html>
